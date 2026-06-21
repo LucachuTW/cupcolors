@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { margin: 0; width: 220px; font-family: system-ui, sans-serif;
+           background: #0b0f14; color: #fff; padding: 12px; }
+    h1 { font-size: 14px; margin: 0 0 10px; letter-spacing: .5px; }
+    button { display: block; width: 100%; margin: 6px 0; padding: 10px;
+             border: 0; border-radius: 8px; font-size: 13px; font-weight: 600;
+             color: #fff; cursor: pointer; text-align: left;
+             border-left: 6px solid rgba(255,255,255,.6); }
+    button:hover { filter: brightness(1.15); }
+    #off { background: #2c3e50; border-left-color: #7f8c8d; text-align: center; }
+    .hint { font-size: 11px; opacity: .55; margin-top: 8px; line-height: 1.3; }
+    label.grain { display: flex; align-items: center; gap: 8px; font-size: 12px;
+                  margin: 4px 0 2px; cursor: pointer; user-select: none; }
+    label.grain input { width: 16px; height: 16px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>⚽ CupColors</h1>
+  <label class="grain"><input type="checkbox" id="grain">Film grain + scanlines</label>
+  <div id="years"></div>
+  <button id="off">Off / Original</button>
+  <p class="hint">Play the match, then click a year. Re-click anytime.</p>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
