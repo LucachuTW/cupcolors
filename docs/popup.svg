@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="312" viewBox="0 0 240 312" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="240" height="312" rx="10" fill="#0b0f14"/>
+
+  <!-- title -->
+  <text x="12" y="30" fill="#ffffff" font-size="14" font-weight="700" letter-spacing="0.5">⚽ CupColors</text>
+
+  <!-- grain checkbox -->
+  <rect x="12" y="44" width="16" height="16" rx="4" fill="#2ecc71"/>
+  <path d="M16 52 l3 3 l5 -6" fill="none" stroke="#0b0f14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="36" y="56" fill="#ffffff" font-size="12">Film grain + scanlines</text>
+
+  <!-- year buttons: x=12 w=216 h=36, 6px left accent, left-aligned label -->
+  <!-- 2002 -->
+  <g>
+    <rect x="12" y="72" width="216" height="36" rx="8" fill="#A58153"/>
+    <rect x="12" y="72" width="6" height="36" rx="3" fill="#ffffff" opacity="0.6"/>
+    <text x="30" y="94" fill="#ffffff" font-size="13" font-weight="600">2002 · Korea/Japan</text>
+  </g>
+  <!-- 2006 -->
+  <g>
+    <rect x="12" y="114" width="216" height="36" rx="8" fill="#C5A23A"/>
+    <rect x="12" y="114" width="6" height="36" rx="3" fill="#ffffff" opacity="0.6"/>
+    <text x="30" y="136" fill="#ffffff" font-size="13" font-weight="600">2006 · Germany</text>
+  </g>
+  <!-- 2010 -->
+  <g>
+    <rect x="12" y="156" width="216" height="36" rx="8" fill="#F8A20C"/>
+    <rect x="12" y="156" width="6" height="36" rx="3" fill="#ffffff" opacity="0.6"/>
+    <text x="30" y="178" fill="#ffffff" font-size="13" font-weight="600">2010 · South Africa</text>
+  </g>
+  <!-- 2014 -->
+  <g>
+    <rect x="12" y="198" width="216" height="36" rx="8" fill="#336F1B"/>
+    <rect x="12" y="198" width="6" height="36" rx="3" fill="#ffffff" opacity="0.6"/>
+    <text x="30" y="220" fill="#ffffff" font-size="13" font-weight="600">2014 · Brazil</text>
+  </g>
+  <!-- off -->
+  <g>
+    <rect x="12" y="240" width="216" height="36" rx="8" fill="#2c3e50"/>
+    <text x="120" y="262" fill="#ffffff" font-size="13" font-weight="600" text-anchor="middle">Off / Original</text>
+  </g>
+
+  <!-- hint -->
+  <text x="12" y="296" fill="#ffffff" opacity="0.55" font-size="11">Play the match, then click a year.</text>
+</svg>
